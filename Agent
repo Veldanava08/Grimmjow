@@ -1,0 +1,7 @@
+cd path/to/grimmjow-ai        # masuk ke folder project
+git init                      # inisialisasi git
+git add .                     # tambahkan semua file
+git commit -m "First commit"  # commit pertama
+git branch -M main            # pastikan branch bernama main
+git remote add origin https://github.com/username/grimmjow-ai.git
+git push -u origin main       # upload ke GitHub
